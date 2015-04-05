@@ -1,0 +1,138 @@
+﻿body {
+    background-image: url(fondo.jpg);
+}
+
+    .textbox1{ 
+    border: 3px double #848484; 
+
+    outline:0; 
+    background-color: #0094ff;
+    scrollbar-face-color: white;
+    box-shadow: 0 0 5px 3px #0f113d;
+    height:188px; 
+    width: 210px; 
+    position: absolute;
+    left: 433px;
+    top: 93px;
+    margin-right: 0px;
+}
+
+     .textbox2{ 
+     border: 3px double #848484; 
+    background-color: #ffffff;
+    outline:0; 
+    height:504px; 
+    width: 319px; 
+    position: absolute;
+    left: 79px;
+    top: 91px; 
+  }
+
+      .textbox3{ 
+     border: 3px double #848484; 
+    background-color: #0094ff;
+    outline:0; 
+    height:188px; 
+    width: 245px; 
+    position: absolute;
+    left: 661px;
+    top: 93px; 
+  }
+
+       .textbox4{ 
+    border: 3px double #848484; 
+    background-color: #808080;
+    outline:0; 
+    height:192px; 
+    width: 250px; 
+    position: absolute;
+    left: 923px;
+    top: 91px; 
+  }
+
+        .tabla {
+    box-shadow: 0 0 5px 3px #ffffff;
+    font-family:'Berlin Sans FB';
+    font-size: 18px;
+    color: #ffffff;
+     background-color: #000000;
+    position: absolute;
+    left: 435px;
+    top: 324px; 
+}
+
+         .tit1 {
+    font-family:'Berlin Sans FB';
+    font-size: 28px;
+    color: #ffffff;
+    position: absolute;
+    left: 77px;
+    top: 12px; 
+}
+             .titentrada {
+    font-family:'Berlin Sans FB';
+    font-size: 15px;
+    color: #ffffff;
+    position: absolute;
+    left: 81px;
+    top: 60px; 
+}
+
+                    .titsin {
+    font-family:'Berlin Sans FB';
+    font-size: 15px;
+    color: #ffffff;
+    position: absolute;
+    left: 653px;
+    top: 61px; 
+}
+
+                      .titlex {
+    font-family:'Berlin Sans FB';
+    font-size: 15px;
+    color: #ffffff;
+    position: absolute;
+    left: 436px;
+    top: 58px; 
+}
+.tittab {
+    font-family: 'Berlin Sans FB';
+    font-size: 15px;
+    color: #ffffff;
+    position: absolute;
+    left: 435px;
+    top: 296px;
+}
+
+
+
+  .btnanalizar {
+            
+            font-family:'Berlin Sans FB';
+            background-color: #ffffff;
+            font-size: 20px;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            position: absolute;
+            top: 408px;
+    height: 26px;
+    right: 84px;
+    margin-bottom: 3px;
+    left: 967px;
+    bottom: 204px;
+}
+
+    .btnfile {
+            
+            font-family:'Berlin Sans FB';
+            background-color: #ffffff;
+            font-size: 15px;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            position: absolute;
+            left: 965px;
+            top: 355px;
+    height: 31px;
+    right: 6px;
+    margin-bottom: 0px;
+}

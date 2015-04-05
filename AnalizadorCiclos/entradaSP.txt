@@ -1,0 +1,81 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+#include<time.h>
+
+void Suma()
+{
+	int a = 5;
+	int b = 9;
+	int c = 0;
+	c = a + b;
+	printf("el Resultado de la Suma es %d ", c);
+}
+void Resta()
+{
+	int a = 5;
+	int b = 2;
+	int c = 0;
+	c = a - b;
+	printf("el Resultado de la Suma es %d ", c);
+}
+void Multiplicacion()
+{
+	int a = 5;
+	int b = 9;
+	int c = 0;
+	c = a * b;
+	printf("el Resultado de la Suma es %d ", c);
+}
+void Division() 
+{
+	int a = 5;
+	int b = 9;
+	float c = 0;
+	c = a / b;
+	printf("el Resultado de la Suma es %.2f ", c);
+}
+void CondicionUno() 
+{
+	int a = 5;
+	int b = 9;
+	if(a == 5)
+{
+	printf("la variable a es igual a 5");
+}
+if(b == 9)
+{
+	printf("la variable b es igual a 9");
+}
+}
+void Condicion () 
+{
+	int a = 1;
+	if(a == 5)
+{
+	printf("la variable a es igual a 5");
+}
+else
+{
+	printf("la variable a es diferente a 5");
+}
+}
+void CiclosUno() 
+{
+	int a = 5;
+	int b = 9;
+	while(a < 15)
+{
+	printf("el valor actual de a es %d ", a);
+	a = a + 1;
+}
+}
+
+void main()
+{
+      Suma();
+      Resta();
+      Multiplicacion();
+      Division();
+      printf("La fecha del Sistema es ", time());
+}

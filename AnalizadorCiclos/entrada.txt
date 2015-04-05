@@ -1,0 +1,54 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+#include<time.h>
+void main()
+{
+Sumar();
+Restar();
+Multiplicar();
+Dividir();
+SumaResta();
+printf("La fecha en que se finalizaron los Calulos es: ", time());
+}
+void Sumar()
+{
+int a = 2;
+int b = 3;
+int c = 6;
+c = a + b;
+printf("el Resultado de la Suma es %d ", c);
+}
+void Restar()
+{
+int a = 9;
+int b = 6;
+int c = 0;
+c = a - b;
+printf("el Resultado de la Suma es %d ", c);
+}
+void Multiplicar()
+{
+int a = 1;
+int b = 2;
+int c = 0;
+c = a * b;
+printf("el Resultado de la Suma es %d ", c);
+}
+void Dividir()
+{
+int a = 6;
+int b = 2;
+float c = 0;
+c = a / b;
+printf("el Resultado de la Suma es %.2f ", c);
+}
+void SumaResta()
+{
+int j = 5;
+int k = 9;
+int l = 0;
+l = j - k;
+l = l + j;
+printf("el Resultado de la Suma es %d ", l);
+}
